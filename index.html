@@ -80,6 +80,25 @@
 		</div>
 	</section>
 	<section class="cf">
+		<div class="fl w-50 tl pa1">
+			<h3>Dingus</h3>
+			<p>Use this text box to see how different characters appear in the font.</p>
+			<script type="text/javascript">
+				function sync() {
+					var from = document.getElementById('from');
+					var to = document.getElementById('to');
+					to.innerHTML = from.innerHTML;
+				}
+			</script>
+			<div id="from" oninput="sync()" class="pa1 w-100 db b--black ba" contenteditable>Enter text here to see things happen.</div>
+		</div>
+		<div class="fl w-50 ewcl tl pa1 bl b--silver">
+			<h3>Dingus</h3>
+			<p>This text box displays characters entered in the other text box.</p>
+			<div id="to" class="pa1 w-100 db ewcl b--black ba" disabled></div>
+		</div>
+	</section>
+	<section class="cf">
 		<h3 class="fl w-100 tl pa1 duplicate-right" content="Sample Text"></h3>
 		<p class="fl w-100 tl pa1 duplicate-right" content="Velit ut labore ipsa sed fuga vel autem doloribus. Recusandae quia omnis earum dignissimos. Iure pariatur qui consequatur reprehenderit eos dolorem harum maxime. Qui nulla non sunt quia recusandae eaque. Qui tenetur quaerat illum voluptatem et."></p>
 		<p class="fl w-100 tl pa1 duplicate-right" content="Asperiores nam saepe et architecto excepturi dicta eaque reiciendis. Inventore eos veritatis ut aliquid quae earum soluta iste. Tempore dicta illo libero eum eos et illo. Sequi eum qui dolore qui voluptas voluptatibus tenetur. Accusamus deserunt eum accusantium aliquam id ipsum minus consequuntur."></p>
@@ -88,22 +107,5 @@
 		<p class="i fl w-100 tl pa1 duplicate-right" content="This paragraph is italicized. Elian Wide Capitals Light does not come with built-in italic glyphs; your browser is generating them by itself."></p>
 		<p class="fl w-100 tl pa1 duplicate-right" content=""></p>
 	</section>
-	<div class="cf">
-		<div class="fl w-50 tl pa1">
-			<h3>Dingus</h3>
-			<script type="text/javascript">
-				function sync() {
-					var from = document.getElementById('from');
-					var to = document.getElementById('to');
-					to.value = from.value;
-				}
-			</script>
-			<textarea id="from" oninput="sync()" class="pa1 w-100">Enter text here to see things happen.</textarea>
-		</div>
-		<div class="fl w-50 ewcl tl pa1 bl b--silver">
-			<h3>Dingus</h3>
-			<textarea id="to" class="pa1 w-100 ewcl" disabled></textarea>
-		</div>
-	</div>
 </body>
 </html>
