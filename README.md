@@ -1,3 +1,10 @@
+## The fonts
+
+- [Elian Wide Capitals Handwritten](./Elian_Wide_Capitals_Handwritten)
+- [Elian Wide Capitals Light](https://github.com/benlk/elian-wide-capitals-light/)
+- [Elian Bitmap Serif](https://github.com/benlk/elian-bitmap-serif)
+
+
 ## About these fonts
 
 The fonts linked to from this repository are meant to be an implementation of [the Elian Script] suitable for use on computers and, eventually, on websites.
