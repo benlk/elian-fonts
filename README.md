@@ -14,6 +14,7 @@ The following are a list of fonts and their licenses:
 - To C. C. Elian, for creating this script: http://www.ccelian.com/ElianScriptFull.html
 - To the SIL Open Font License authors: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=OFL-FAQ_web
 - To the FontForge maintainers: https://fontforge.github.io/
+- To OH no Type Company for this guidance on proofing: https://ohnotype.co/blog/proof-it
 
 ## Editors
 
